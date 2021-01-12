@@ -1,3 +1,4 @@
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -23,6 +24,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+=======
 # OSX
 .DS_Store
 
@@ -36,7 +38,12 @@ yarn-error.log*
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+
 # Xcode
+=======
+
+# Xcode
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -60,6 +67,9 @@ project.xcworkspace
 local.properties
 
 # node.js
+
+=======
+node_modules/
 npm-debug.log
 
 # BUCK
