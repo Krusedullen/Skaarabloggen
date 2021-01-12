@@ -1,11 +1,11 @@
 import React from "react";
 
-function Heading(){
+function Header(){
   return(
-    <header>
+    <header className= "blog-header">
       <h1>Dette er en header</h1>
     </header>
   );
 }
 
-export default Heading;
+export default Header;
